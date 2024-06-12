@@ -27,7 +27,8 @@ jobs:
 
       - name: Create tmp folder
         run: mkdir app-dir
-            - name: Create package
+      
+      - name: Create package
         run: ucc-gen package --path output/devtutorial_conf24 -o app-dir/
       
       - name: Upload package
